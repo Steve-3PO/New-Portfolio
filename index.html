@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Stephen R. Delves</h1>
+            <ul>
+                <li><a data-page="profile" href="#">Profile</a></li>
+                <li><a data-page="skills" href="#">Skills</a></li>
+                <li><a data-page="contact" href="#">Contact</a></li>
+                <li><a href="./Stephen Delves CV.pdf">CV</a></li>
+                <div class="bubble"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section data-index="0" class="profile">
+            <h2>Professionally trained Technical Analyst with experience in Data, Business, Testing Analysis and Project/Product Management.</h2>
+        </section>
+
+        <section data-index="1" class="skills">
+            <ul class="flexbox">
+                <h2>Having graduated with a First Class Honours in Astrophysics, I have a fundamental and firm grasp of problem-solving, analysis and empiricism.</h2>
+                <li>Professional Scrum Master Certification (PSM1)</li>
+                <li>ISTQB Foundation Level Software Tester</li>
+                <li>Professional Consultancy & Business Analysis Skills</li>
+                <li>Software Delivery: CI/CD, Git, Command Line, HTML, CSS</li>
+                <li>Agile Methodologies</li>
+                <li>Data Analysis: Excel, SQL & NoSQL, Tableau, Data Fundamentals</li>
+                <li>Software Testing</li>
+            </ul>
+        </section>
+
+        <section data-index="2" class="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>For any further questions don't hesitate to get in touch!</p>
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p id="padding">Stephen.Delves@hotmail.co.uk</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>07714 687013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputbox">
+                            <input type="text" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea required="required"></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="Submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
